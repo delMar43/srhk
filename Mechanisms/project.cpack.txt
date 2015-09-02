@@ -1,0 +1,19 @@
+project_id: "55e4cb00353064081a00002a"
+project_name: "Mechanisms"
+project_version: "3"
+author_name: "delMar"
+synopsis: "trying out stuff"
+has_story: true
+preview_image: "preview"
+content_pack_dependencies {
+  package_id: "518d7671643431b03f0041a8"
+  package_version: "1"
+  package_name: "ShadowrunCore"
+  package_description: "Core Shadowrun Returns functionality"
+}
+content_pack_dependencies {
+  package_id: "54469bed32343784240005f9"
+  package_version: "1"
+  package_name: "HongKong"
+  package_description: "Shadowrun: Hong Kong"
+}

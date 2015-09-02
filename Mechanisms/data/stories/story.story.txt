@@ -1,0 +1,492 @@
+id: "trying out stuff"
+variables {
+  name: "debugMode"
+  typeName: "bool"
+  defaultValue {
+    bool_value: true
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "debugMode"
+      typeName: "bool"
+    }
+  }
+}
+variables {
+  name: "tick"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "tick"
+      typeName: "int"
+    }
+  }
+}
+startScene: "S00 - Stuff"
+resalePercent: 75
+upgradeToThreeApLevel: 117
+character_roster {
+  roster_entries {
+    reference_id: "berlinrunner_lv1_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv2_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv3_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv4_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv5_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "berlinrunner_lv6_luckystrike"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv1_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv2_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv3_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 3
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv4_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 4
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv5_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 5
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_duncan"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_gaichu"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_gobbet"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_is0bel"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "crew_lv6_racter"
+    hiring_conditions {
+    }
+    hiring_cost: 6
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv1_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv2_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv3_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv4_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv5_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_brentshirkey"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_elduce"
+    hiring_conditions {
+    }
+    hiring_cost: 2
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_eos"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_kiluminati"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+  roster_entries {
+    reference_id: "supplemental_lv6_xfloh"
+    hiring_conditions {
+    }
+    hiring_cost: 1
+    content_pack_source: "54469bed32343784240005f9"
+  }
+}

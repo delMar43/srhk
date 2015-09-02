@@ -1,0 +1,276 @@
+idRef {
+  id: "55e5e916336533e817002ce7"
+}
+ui_name: "Terminal"
+nodes {
+  idRef {
+    id: "55e5e933336533e817002cf1"
+  }
+  index: 0
+  text: "Terminal\n----------\nCargo OS v2.97\nEnter your choice"
+  branches {
+    responseText: "Buy container"
+    conditions {
+      ops {
+        functionName: "Comparison (int)"
+        args {
+          call_value {
+            functionName: "Get Variable (int)"
+            args {
+              string_value: "res_container_count"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 4
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Variable (int)"
+            args {
+              string_value: "res_container_maxCount"
+            }
+          }
+        }
+      }
+    }
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "buy_resource_name"
+            }
+          }
+        }
+        args {
+          string_value: "container"
+        }
+      }
+      ops {
+        functionName: "Trigger: Run Alternate Trigger"
+        args {
+          call_value {
+            functionName: "Get Map Item (Trigger)"
+            args {
+              string_value: "55e5eaaf336533e817002d2d"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WaitOrNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 0
+    idRef {
+      id: "55e5e916336533e817002ce7:55e5e95a336533e817002cf3"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Sell container"
+    conditions {
+      ops {
+        functionName: "Comparison (int)"
+        args {
+          call_value {
+            functionName: "Get Variable (int)"
+            args {
+              string_value: "res_container_count"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "Comparison Ops"
+            }
+            args {
+              int_value: 2
+            }
+          }
+        }
+        args {
+          int_value: 1
+        }
+      }
+    }
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Variable (string)"
+            args {
+              string_value: "buy_resource_name"
+            }
+          }
+        }
+        args {
+          string_value: "container"
+        }
+      }
+      ops {
+        functionName: "Trigger: Run Alternate Trigger"
+        args {
+          call_value {
+            functionName: "Get Map Item (Trigger)"
+            args {
+              string_value: "55e5fa8e336466cc14003dd5"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WaitOrNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 0
+    idRef {
+      id: "55e5e916336533e817002ce7:55e5f9e0336466cc14003dc9"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Display container info"
+    actions {
+      ops {
+        functionName: "Trigger: Run Alternate Trigger"
+        args {
+          call_value {
+            functionName: "Get Map Item (Trigger)"
+            args {
+              string_value: "55e5e730336533e817002cda"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WaitOrNot"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "WithOrWithout"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 0
+    idRef {
+      id: "55e5e916336533e817002ce7:55e5e966336533e817002cf8"
+    }
+    auxiliaryLink: true
+  }
+  branches {
+    responseText: "Exit"
+    nextNodeIndex: -1
+    idRef {
+      id: "55e5e916336533e817002ce7:55e5e967336533e817002cfa"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+  speaker_override_id: "55897a5a613464581a001ad8"
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "55e5e916336533e817002ce7:55e5e916336533e817002ceb"
+  }
+}
+speaker_override_id: "55897a5a613464581a001ad8"

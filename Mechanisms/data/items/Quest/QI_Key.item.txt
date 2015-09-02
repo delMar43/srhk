@@ -1,0 +1,12 @@
+id: "QI_Key"
+type: ItemType_QuestItem
+uirep {
+  name: "Key"
+  description: "A key"
+}
+credentials: 0
+sorting_group: "Quest"
+closeupImage {
+  filename: "popup/aaa_turntogglebutton"
+}
+closeupCaption: "A key, close up"
