@@ -219,6 +219,47 @@ triggers {
         float_value: 0
       }
     }
+    ops {
+      functionName: "Assign Conversation to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "55e5e916336533e817002ce7"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "55e713f93161370408002139"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -1054,7 +1095,7 @@ regions {
     x: -29
     y: -24
     width: 58
-    height: 51
+    height: 58
   }
   enabledAtStart: true
   is_camera_region: true
@@ -1369,13 +1410,148 @@ characters {
     z: -2
   }
   orientation: ORIENTATION_S
+  displayName: "Ganger3"
   idRef {
     id: "55e713f93161370408002139"
   }
   lod: 0
   character_instance {
     prefab_name: "Seattle:Story/WeaponsDealer"
-    team_id: "Civilians"
+    character_sheet_id: "Adept_Lv5_HtH"
+    character_mod {
+      archetypeName: "Guard - Hunt And Destroy"
+    }
+    team_id: "Gangers"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  displayName: "Ganger2"
+  idRef {
+    id: "55e8ad52316137dc05003dcb"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Story/WeaponsDealer"
+    character_mod {
+      archetypeName: "Guard - Hunt And Destroy"
+    }
+    team_id: "Gangers"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  displayName: "Ganger1"
+  idRef {
+    id: "55e8ad53316137dc05003dcc"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/TrollMale"
+    character_mod {
+      archetypeName: "Guard - Hunt And Destroy"
+    }
+    team_id: "Gangers"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_W
+  displayName: "LoneStar3"
+  idRef {
+    id: "55e8ad67316137dc05003dcd"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Story/WeaponsDealer"
+    character_mod {
+      stats {
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Guard - Hunt And Destroy"
+      vulnerabilities {
+      }
+    }
+    team_id: "LoneStar"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_W
+  displayName: "LoneStar2"
+  idRef {
+    id: "55e8ad67316137dc05003dce"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Story/WeaponsDealer"
+    character_mod {
+      archetypeName: "Guard - Hunt And Destroy"
+    }
+    team_id: "LoneStar"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_W
+  displayName: "LoneStar1"
+  idRef {
+    id: "55e8ad67316137dc05003dcf"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Story/WeaponsDealer"
+    character_mod {
+      archetypeName: "Guard - Hunt And Destroy"
+    }
+    team_id: "LoneStar"
     char_name: "New Actor"
     pc_spawn_number: -1
   }
@@ -1447,20 +1623,20 @@ allow_drawn_weapons: false
 team_affiliations {
   team_name: "Shadowrunners"
   affiliation: 0
-  affiliation: 1
-  affiliation: 1
+  affiliation: 0
+  affiliation: 0
   affiliation: 0
 }
 team_affiliations {
   team_name: "Gangers"
-  affiliation: 1
+  affiliation: 0
   affiliation: 0
   affiliation: 1
   affiliation: 0
 }
 team_affiliations {
   team_name: "LoneStar"
-  affiliation: 1
+  affiliation: 0
   affiliation: 1
   affiliation: 0
   affiliation: 0
@@ -1474,8 +1650,6 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

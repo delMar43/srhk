@@ -1,7 +1,7 @@
 minX: -32
 minZ: -23
 numX: 56
-numZ: 49
+numZ: 61
 props {
   name: "cemetery_ground_dirt03"
   gridPoint {
@@ -2569,4 +2569,894 @@ props {
     }
     intensity: 3
   }
+}
+props {
+  name: "wuxing_ground_atriumBridge"
+  gridPoint {
+    x: 19
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "cemetery_ground_grass01"
+  gridPoint {
+    x: 12
+    y: 0
+    z: 15
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "cemetery_ground_grass02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: 12
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "cemetery_ground_grass03"
+  gridPoint {
+    x: 12
+    y: 0
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "cemetery_ground_grass04"
+  gridPoint {
+    x: 12
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass01"
+  gridPoint {
+    x: 12
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: 12
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass03"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass04"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -29
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8ac9d316137dc05003d86"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -29
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8ac9d316137dc05003d87"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8ac9f316137dc05003d88"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8ac9f316137dc05003d89"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -29
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8ac9f316137dc05003d8a"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8ac9f316137dc05003d8b"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8aca5316137dc05003d8c"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8aca5316137dc05003d8d"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8aca5316137dc05003d8e"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8aca5316137dc05003d8f"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8aca9316137dc05003d90"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8aca9316137dc05003d91"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8aca9316137dc05003d92"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d93"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d94"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d95"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d96"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d97"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d98"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d99"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d9a"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d9b"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: -17
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d9c"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d9d"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d9e"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003d9f"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003da0"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acbe316137dc05003da1"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -23
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acc6316137dc05003da2"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -23
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acc6316137dc05003da3"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -26
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acc6316137dc05003da4"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -26
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acc6316137dc05003da5"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -29
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acc9316137dc05003da6"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acc9316137dc05003da7"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -20
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acd8316137dc05003db1"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -20
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acd8316137dc05003db2"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -17
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acd8316137dc05003db3"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -17
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acd8316137dc05003db4"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -14
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acd8316137dc05003db5"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -14
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acd8316137dc05003db6"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -11
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acd8316137dc05003db7"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -11
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acd8316137dc05003db8"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -8
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acda316137dc05003db9"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -8
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acda316137dc05003dba"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acda316137dc05003dbb"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -5
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acda316137dc05003dbc"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: -2
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acda316137dc05003dbd"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: -2
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acda316137dc05003dbe"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acda316137dc05003dbf"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: 1
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acda316137dc05003dc0"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acdb316137dc05003dc1"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: 4
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acdb316137dc05003dc2"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acdb316137dc05003dc3"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acdb316137dc05003dc4"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: 10
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acdb316137dc05003dc5"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: 10
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acdb316137dc05003dc6"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acdb316137dc05003dc7"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: 13
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8acdb316137dc05003dc8"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass02"
+  gridPoint {
+    x: 16
+    y: 0
+    z: 28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8ace0316137dc05003dc9"
+  }
+  lod: 0
+}
+props {
+  name: "rooftopGarden_ground_grass01"
+  gridPoint {
+    x: 16
+    y: 0
+    z: 25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55e8ace0316137dc05003dca"
+  }
+  lod: 0
 }

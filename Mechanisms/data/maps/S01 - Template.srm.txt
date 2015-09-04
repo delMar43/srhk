@@ -1,0 +1,70 @@
+minX: -16
+minZ: -7
+numX: 7
+numZ: 10
+props {
+  name: "vicHarbor_ground_dirt03"
+  gridPoint {
+    x: -16
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "1"
+  }
+  lod: 0
+}
+props {
+  name: "vicHarbor_ground_dirt03"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  displayName: "Dirt03a"
+  idRef {
+    id: "1"
+  }
+  lod: 0
+}
+props {
+  name: "vicHarbor_ground_dirt03"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "3"
+  }
+  lod: 0
+}
+props {
+  name: "vicHarbor_ground_dirt03"
+  gridPoint {
+    x: -16
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "4"
+  }
+  lod: 0
+}
+props {
+  name: "vicHarbor_ground_dirt03"
+  gridPoint {
+    x: -16
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "55e8b044316137040b003d6d"
+  }
+  lod: 0
+}

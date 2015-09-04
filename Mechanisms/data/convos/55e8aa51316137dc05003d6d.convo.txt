@@ -1,0 +1,20 @@
+idRef {
+  id: "55e8aa51316137dc05003d6d"
+}
+ui_name: "Container"
+nodes {
+  idRef {
+    id: "55e8aa59316137dc05003d75"
+  }
+  index: 0
+  text: "Quit"
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  responseText: "Container OS"
+  nextNodeIndex: 0
+  idRef {
+    id: "55e8aa51316137dc05003d6d:55e8aa51316137dc05003d71"
+  }
+}
+speaker_override_id: "55897a5a613464581a001ad8"
