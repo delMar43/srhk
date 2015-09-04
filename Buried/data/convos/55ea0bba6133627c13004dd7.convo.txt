@@ -1,0 +1,98 @@
+idRef {
+  id: "55ea0bba6133627c13004dd7"
+}
+ui_name: "S00 - Sense Arrow Trap"
+nodes {
+  idRef {
+    id: "55ea0bc96133627c13004ddf"
+  }
+  index: 0
+  text: "You sense a trap!"
+  branches {
+    responseText: "Examine the surroundings"
+    conditions {
+      ops {
+        functionName: "No Condition"
+      }
+    }
+    actions {
+      ops {
+        functionName: "Enable/Disable Trigger"
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "EnableOrDisable"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Trigger)"
+            args {
+              string_value: "55ea05606133625c1e0056c2"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 1
+    idRef {
+      id: "55ea0bba6133627c13004dd7:55ea0bd76133627c13004de1"
+    }
+  }
+  branches {
+    responseText: "Don\'t be such a whiner. Continue"
+    nextNodeIndex: 2
+    idRef {
+      id: "55ea0bba6133627c13004dd7:55ea0be66133627c13004de3"
+    }
+  }
+  nodeType: ConversationNodeType_Simple
+}
+nodes {
+  idRef {
+    id: "55ea0c266133627c13004de6"
+  }
+  index: 1
+  text: "You disabled an arrow trap!"
+  nodeType: ConversationNodeType_Simple
+  actions {
+    ops {
+      functionName: "Add Actor Karma"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "55ea0c476133627c13004de9"
+  }
+  index: 2
+  text: "Geronimooo!"
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+  idRef {
+    id: "55ea0bba6133627c13004dd7:55ea0bba6133627c13004ddb"
+  }
+}

@@ -1,6 +1,6 @@
 id: "Buried"
 description: "You awake in a dark, musty cave. Your head hurts. Must be from when they hit you.\nSomeone must have knocked you out and brought you here; but why?\nYou are alone and unarmed. All that\'s left is the clothes wear.\nThere\'s just one thing in your mind: Survive"
-startScene: "S01 - The Maze"
+startScene: "S00 - Maze"
 allowCharacterImport: false
 allowCharacterGen: false
 allowFallbackCharacter: true
