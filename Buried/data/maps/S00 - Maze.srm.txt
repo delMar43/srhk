@@ -40531,3 +40531,155 @@ props {
   }
   lod: 0
 }
+props {
+  name: "haven_groundDecoration_bloodSplatter01"
+  gridPoint {
+    x: 30
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "haven_groundDecoration_bloodSplatter02"
+  gridPoint {
+    x: 31
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "haven_groundDecoration_bloodSplatter03"
+  gridPoint {
+    x: 33
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "whampoa_groundDecoration_bloodPool01"
+  gridPoint {
+    x: 41
+    y: 0
+    z: -28
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "haven_groundDecoration_bloodSplatter01"
+  gridPoint {
+    x: 29
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55f4391d316137080b0066bc"
+  }
+  lod: 0
+}
+props {
+  name: "whampoa_groundDecoration_bloodSpatter02"
+  gridPoint {
+    x: 36.4
+    y: 0
+    z: -24.6
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "haven_groundDecoration_bloodSplatter02"
+  gridPoint {
+    x: 41
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55f43954316137080b0066bd"
+  }
+  lod: 0
+}
+props {
+  name: "hive_decor_corpses02"
+  gridPoint {
+    x: 40
+    y: 0
+    z: -29
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55f43a73316137080b0066c1"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    inspectInteraction {
+      dispalyTime: 3
+      fadeTime: 0
+      inspectText: "That monster did not leave much "
+      disableAfterInteracting: false
+    }
+    interaction_info_text: ""
+  }
+  lod: 0
+}
+props {
+  name: "haven_groundDecoration_bloodSplatter03"
+  gridPoint {
+    x: 43
+    y: 0
+    z: -28
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55f43b8c316137080b0066c4"
+  }
+  lod: 0
+}
+props {
+  name: "haven_groundDecoration_bloodSplatter01"
+  gridPoint {
+    x: 39
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55f43b8c316137080b0066c5"
+  }
+  lod: 0
+}
+props {
+  name: "haven_groundDecoration_bloodSplatter01"
+  gridPoint {
+    x: 38
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "55f43b8c316137080b0066c6"
+  }
+  lod: 0
+}
+props {
+  name: "haven_groundDecoration_bloodSplatter02"
+  gridPoint {
+    x: 40
+    y: 0
+    z: -26
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "55f43b9b316137080b0066c7"
+  }
+  lod: 0
+}

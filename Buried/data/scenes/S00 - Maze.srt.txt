@@ -850,7 +850,7 @@ triggers {
         }
       }
       args {
-        string_value: "The small chamber before you seems to hold something of great value.\nHowever, the way inside seems a little bit too easy. Maybe you should come back later..."
+        string_value: "The small chamber before you seems to hold something of great value.\nHowever, the way inside seems a little bit too easy. Maybe you should try to find out more about this dungeon first and come back later..."
       }
       args {
         float_value: 0
@@ -1371,6 +1371,126 @@ triggers {
   }
   is_oneshot: false
 }
+triggers {
+  name: "onEnterRgnBloodsplatters"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "55f4399f316137080b0066be"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Evaluate Turn Mode in Dimension"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TurnBasedOrFreeMove"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Comparison (Actor)"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Player)"
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Display Text at Screen Position"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        string_value: "Blood splatters fill the floor..."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "55f439d9316137080b0066bf"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Camera"
   position {
@@ -1719,14 +1839,72 @@ regions {
   combat_outro_stinger: ""
   vfx_fill_prefab_name: ""
 }
+regions {
+  name: "rgn_bloodsplatters"
+  position {
+    x: 29
+    y: -25
+    width: 8
+    height: 2
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "55f4399f316137080b0066be"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: 8
+    x: 12
     y: 0
-    z: 30
+    z: -25
   }
-  orientation: ORIENTATION_N
+  orientation: ORIENTATION_S
   idRef {
     id: "55e24a50316137981000221d"
   }
@@ -1744,18 +1922,30 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: 47
+    x: 41
     y: 0
     z: -29
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_N
   idRef {
     id: "55ea0a936133625c1e0056c6"
   }
   lod: 0
   character_instance {
+    prefab_name: "Seattle:Creature/CreatureHellhound"
+    character_sheet_id: "Creature_Lv4_Hellhound"
     character_mod {
       stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        armor: 0
         morale: 0
         discipline: 0
         awareness: 0
@@ -1763,17 +1953,26 @@ characters {
         authority: 0
         protect_tether_range: 0
         move_speed: 0
+        vision_peripheral_distance: 0
+        vision_cone_distance: 0
+        vision_cone_angle: 0
       }
       skills {
+        close_combat: 0
+        dodge: 0
+        chi_casting: 0
       }
       specializations {
+        unarmed: 0
       }
+      archetypeName: "gumbo_Auto"
       vulnerabilities {
       }
     }
-    team_id: "Shadowrunners"
+    team_id: "Monsters"
     char_name: "New Actor"
     pc_spawn_number: -1
+    karma: 72
   }
 }
 variables {
@@ -1820,28 +2019,10 @@ team_affiliations {
   team_name: "Shadowrunners"
   affiliation: 0
   affiliation: 1
-  affiliation: 1
-  affiliation: 0
 }
 team_affiliations {
-  team_name: "Gangers"
+  team_name: "Monsters"
   affiliation: 1
-  affiliation: 0
-  affiliation: 1
-  affiliation: 0
-}
-team_affiliations {
-  team_name: "LoneStar"
-  affiliation: 1
-  affiliation: 1
-  affiliation: 0
-  affiliation: 0
-}
-team_affiliations {
-  team_name: "Civilians"
-  affiliation: 0
-  affiliation: 0
-  affiliation: 0
   affiliation: 0
 }
 scene_dimensions {
@@ -1854,8 +2035,6 @@ scene_dimensions {
   is_matrix: true
   max_alarm_value: 50
   heat_response_rating: 0
-}
-character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {
